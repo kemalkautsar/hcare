@@ -1,0 +1,10 @@
+.menu {
+    height: 65px;
+}
+
+.container.body{
+    padding: 27px;
+}
+.container.body>.row>div {
+    padding: 27px;
+}
