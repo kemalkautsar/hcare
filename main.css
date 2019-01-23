@@ -1,10 +1,55 @@
+body {
+    background: #f8f8f8;
+}
+
 .menu {
     height: 65px;
 }
 
+.faux-banner {
+    background: #40A9BC;
+    height: 199px;
+    min-height: 199px;
+    z-index: -1;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
 .container.body{
     padding: 27px;
+    margin-top: -155px;
+    background: #FFF;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, .2);;
 }
 .container.body>.row>div {
     padding: 27px;
+}
+
+.content>div{
+    width: 100%;
+}
+
+.card {
+    border-radius:2px;
+    border: #EDEDED solid 1px;
+}
+.bg-blue {
+    background:#40A9BC;
+}
+
+.post-image>img {
+    width: 100%;
+    height: auto;
 }
