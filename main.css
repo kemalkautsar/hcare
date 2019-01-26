@@ -28,7 +28,8 @@ body {
 }*/
 
 .container.body{
-    padding: 27px;
+    padding: 0 27px 80px;
+    margin-bottom: 76px;
     margin-top: -155px;
     background: #FFF;
     box-shadow: 0px 8px 18px rgba(0, 0, 0, .2);;
@@ -134,4 +135,10 @@ div.suggestion-nav {
 .suggestion-carousel>div {
     margin: 0 13px;
     width: 25%!important;
+}
+
+.container.footer-quote {
+    padding: 40px 0;
+    background-image: url("images/bg-playstation.png");
+    background-repeat: no-repeat, repeat;
 }
