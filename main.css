@@ -11,7 +11,8 @@ ul {
 }
 
 .container-plain {
-    padding: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
 .faux-banner {
@@ -151,10 +152,16 @@ div.suggestion-nav {
     background-repeat: no-repeat, repeat;
 }
 
-.container.footer-menu {
+.footer-menu {
     padding: 54px 0 66px;
+    border-bottom: 1px #E8E8E8 solid;
 }
 
 .footer-icons>ul>li {
     display: inline;
+}
+
+.footer-copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
