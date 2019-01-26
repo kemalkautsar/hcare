@@ -2,8 +2,16 @@ body {
     background: #f8f8f8;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .menu {
     height: 65px;
+}
+
+.container-plain {
+    padding: 0!important;
 }
 
 .faux-banner {
@@ -141,4 +149,12 @@ div.suggestion-nav {
     padding: 40px 0;
     background-image: url("images/bg-playstation.png");
     background-repeat: no-repeat, repeat;
+}
+
+.container.footer-menu {
+    padding: 54px 0 66px;
+}
+
+.footer-icons>ul>li {
+    display: inline;
 }
