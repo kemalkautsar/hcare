@@ -1,13 +1,11 @@
 <!doctype html>
 
 <head>
+    <link rel="stylesheet" href="main.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -20,22 +18,22 @@
     <div class="container body">
         <div class="row main-content">
             <div class="col-xl-4 d-none d-xl-block d-lg-block sidebar">
-                <div class="card page-contents">
+                <div class="card-low page-contents">
                     this is a page content card
                 </div>
             </div>
             <div class="col-xl-8 content">
                 <div class="meta">
-                    <div class="row post-date">
+                    <div class="post-date">
                         Last Updated on 16 January 2019
                     </div>
-                    <div class="row post-title">
+                    <div class="post-title">
                         <h1>Health Insurance for Families</h1>
                     </div>
-                    <div class="row post-image">
+                    <div class="post-image">
                         <img src="images/family-lg.jpg">
                     </div>
-                    <div class="card main-quote">
+                    <div class="card-low main-quote">
                         <div style="padding:30px 50px;">
                             <h5 style="text-align: center;">Have questions? Let's talk!</h5>
                             <p style="text-align: center;">Not sure if this applies to your situation? Phone us on 1300
@@ -43,7 +41,7 @@
                                 355 for some free, no obligation advice.</p>
                         </div>
                         <div class="bg-blue" style="padding:32px;">
-                            <h5 style="text-align: center; color:#fff; padding: 0 0 23px;;"><img src="images/plus-Shape.png" />
+                            <h5 style="text-align: center; color:#fff; padding: 0 0 23px;;"><img src="images/icon-plus.png" />
                                 Compare Health Insurance Policies Now</h5>
                             <div>
                                 <form>
@@ -61,7 +59,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col" style="padding:8px;">
-                                            <a class="btn-green" style="width:100%;">Submit</a>
+                                            <a class="button-green" style="width:100%;">Submit</a>
                                         </div>
                                     </div>
                                 </form>
@@ -69,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row article">
+                <div class="article">
                     <p>Raising children is expensive enough without adding high medical costs on top, which is why most
                         Australian families have private family health insurance.</p>
 
@@ -103,10 +101,10 @@
                         family
                         health insurance.</p>
                 </div>
-                <div class="card go-compare">
-                    <a href="#" class="btn-green">Compare Health Cover <img src="images/go.png"></a>
+                <div class="card-low go-compare d-flex justify-content-center">
+                    <a href="#" class="button-green">Compare Health Cover <img src="images/icon-go.png"></a>
                 </div>
-                <div class="row article">
+                <div class="article">
                     <h5>Why do I need a specific family health insurance policy?</h5>
                     <p>Health insurance is designed to cover you for different life stages. Before meeting your partner
                         or
@@ -132,10 +130,10 @@
                         you have now, you will need to have obstetrics cover for at least 12 months before the birth of
                         your baby to ensure you will be covered for the birth-related hospital costs.</p>
                 </div>
-                <div class="article-image">
+                <div class="article-image d-flex justify-content-center">
                     <img src="images/graph.png">
                 </div>
-                <div class="row article">
+                <div class="article">
                     <h5>Why do I need to re-evaluate my family health insurance?</h5>
                     <p>While it may seem obvious to switch from a singles or couples policy to a family one when you're
                         expecting, as your family grows it's equally important to make sure your health insurance
@@ -146,10 +144,10 @@
                         for you.
                     </p>
                 </div>
-                <div class="card go-compare">
-                    <a href="#" class="btn-green">Compare Health Cover <img src="images/go.png"></a>
+                <div class="card-low go-compare d-flex justify-content-center">
+                    <a href="#" class="button-green">Compare Health Cover <img src="images/icon-go.png"></a>
                 </div>
-                <div class="row article">
+                <div class="article">
                     <p>While it's unlikely you're going to need cover for hip replacements or cataract surgery, you
                         should make sure your policy does include cover for the following:</p>
                     <ul class="timeline">
@@ -191,7 +189,7 @@
                     <p>Family policies are tailored to the specific needs of families, so you can get access to the
                         services you need without having to pay extra on your premium for unnecessary cover.</p>
                 </div>
-                <div class="row article">
+                <div class="article">
                     <h5>How long can my children stay on my policy?</h5>
                     <p>Your children can remain on your family policy until they are 25 provided they are full-time
                         students and still your dependents. Once they stop studying full time or turn 25 they will
@@ -209,79 +207,179 @@
                         the best policy for your family's changing needs. Fill out your details below or give us a call
                         and we'll find you tailored policies at the best prices.</p>
                 </div>
-                <div class="card go-compare">
-                    <a href="#" class="btn-green">Compare Health Cover <img src="images/go.png"></a>
+                <div class="card-low go-compare d-flex justify-content-center">
+                    <a href="#" class="button-green">Compare Health Cover <img src="images/icon-go.png"></a>
                 </div>
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                    What types of health insurance are available in Australia?</a>
-                            </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                    Who should buy health insurance?</a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                    How much will it cost?</a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                    Health insurance glossary</a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</div>
-                        </div>
-                    </div>
-                    <div class="disclaimer">Disclaimer: The above information is correct and current at the time of publication</div>
-                </div>
-                <div class="end-quote">
+                <div class="faq-accordion">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        Collapsible Group Item #1
+                                    </button>
+                                </h5>
+                            </div>
 
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                    of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                    of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                        aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                    of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="end-quote bg-blue">
+                    <div class="container">
+                        <div class="row" style="padding-bottom:35px; border-bottom: solid 1px rgba(255,255,255,.2);">
+                            <div class="col-1">
+                                <img src="images/icon-dialogue.png"></a>
+                            </div>
+                            <div class="col-11">
+                                <h5>Still Have Questions? Let's Talk!</h5>
+                                <p>Confused? Not sure if this applies to your situation? Phone us on <span class="phone-cta">1300
+                                        643 355</span> for some free, no obligation advice.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row" style="padding-top:30px;padding-bottom:25px;">
+                                    <div class="col-1">
+                                        <img src="images/icon-quote.png"></a>
+                                    </div>
+                                    <div class="col-11">
+                                        <h5>Or want to compare policies now?</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div>
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-6">
+                                                <input type="name" class="form-control" placeholder="Name">
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <input type="email" class="form-control" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-6">
+                                                <input type="phone" class="form-control" placeholder="Phone Number">
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <select class="form-control">
+                                                    <option>Your Current Fund...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-6">
+                                                <input type="postcode" class="form-control" placeholder="Post Code">
+                                            </div>
+                                            <div class="form-group col-6">
+                                                <select class="form-control">
+                                                    <option>Life Stage...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <a class="button-green">Sign in</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="comment-section">
-                    
+                    <div class="comment-head">
+                        <div class="d-flex justify-content-center">
+                            <h5>Leave a Reply</h5>
+                        </div>
+                        <div class="d-flex justify-content-center">Your email address will not be published. Required
+                            fields are marked <span style="color:#D73737;">*</span></div>
+                    </div>
+                    <div class="comment-main">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-6">
+                                    <label for="comment-name">Name <span style="color:#D73737;">*</span></label>
+                                    <input type="name" id="comment-name" class="form-control">
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="comment-name">Email <span style="color:#D73737;">*</span></label>
+                                    <input type="email" id="comment-email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment-website">Website</label>
+                                <input id="comment-website" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment-textarea">Comment</label>
+                                <textarea id="comment-textarea" class="form-control"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end"><a href="#" class="button-green">Post Comment <img src="images/icon-go.png"></a></div>
+                    </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-xl-12 suggestion">
-                suggestion
-            </div>
         </div>
+        <div class="col-xl-12 suggestion">
+            <div class="suggestion-head"><h5>You may also like ...</h5></div>
+        </div>
+    </div>
     </div>
     <div class="container footer">
         footer
