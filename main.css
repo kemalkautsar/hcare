@@ -14,8 +14,8 @@ body {
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 0!important;
+    margin-left: 0!important;
 }
 
 /*.full-width {
@@ -52,7 +52,8 @@ p:last-child {
 }
 
 .card-high {
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, .4);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, .04);
+    padding: 0!important;
 }
 
 .bg-blue {
@@ -95,4 +96,42 @@ p:last-child {
 .comment-section {
     background: #f8f8f8;
     padding: 45px 39px;
+}
+
+.suggestion-head {
+    padding: 0 34px 20px;
+}
+.suggestion-carousel {
+    margin: 0 3px;
+}
+
+.suggestion-desc {
+    padding: 16px 18px 22px;
+}
+
+.suggestion-title {
+    color: #40A9BC;
+}
+
+.suggestion-carousel>.row>div {
+    margin: 0 13px;
+    padding: 0;
+}
+
+.suggestion-content>div {
+    padding: 0;
+}
+.suggestion-image>img {
+    width: 100%;
+}
+div.suggestion-nav {
+    width: 12px!important;
+}
+
+.suggestion-content, .suggestion-carousel {
+    display: inline-flex;
+}
+.suggestion-carousel>div {
+    margin: 0 13px;
+    width: 25%!important;
 }
