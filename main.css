@@ -41,6 +41,41 @@ ul.no-dots {
     z-index: -1;
 }
 
+.float-share {
+    width: fit-content;
+    position: absolute;
+    top: 345px;
+}
+
+.float-share-group {
+    padding: 0;
+    width: fit-content;
+}
+
+.float-share-group>li>img {
+    padding: 15px!important;
+}
+
+.float-share-facebook {
+    background: #4867AA;
+}
+
+.float-share-twitter {
+    background: #1DA1F2;
+}
+
+.float-share-gplus {
+    background: #DB5043;
+}
+
+.float-share-linkedin {
+    background: #0274B3;
+}
+
+.float-share-email {
+    background: #3C3C3C;
+}
+
 .row {
     margin-right: 0!important;
     margin-left: 0!important;
