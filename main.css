@@ -8,6 +8,25 @@ ul.no-dots {
 
 .menu {
     height: 65px;
+    background: #fff;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, .2);;
+}
+
+.menu-logo {
+    height: 40px;
+}
+.menu-logo-container {
+    padding: 12px 0;
+    border-right: 1px #F3F3F3 solid;
+}
+
+.menu-nav-container {
+    padding: 20px 0!important;
+}
+
+.menu-nav-container>ul {
+    margin-bottom:auto;
+    margin-top:auto;
 }
 
 .container-plain, .container-plain div {
@@ -27,14 +46,9 @@ ul.no-dots {
     margin-left: 0!important;
 }
 
-/*.full-width {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}*/
+.menu-item {
+    padding: 25px 20px;
+}
 
 .container.body{
     padding: 0 27px 80px;
@@ -154,7 +168,7 @@ div.suggestion-nav {
 .container.footer-quote {
     padding: 40px 0;
     background-image: url("images/bg-playstation.png");
-    background-repeat: no-repeat, repeat;
+    background-repeat: repeat;
 }
 
 .footer-menu {
@@ -162,7 +176,7 @@ div.suggestion-nav {
     border-bottom: 1px #E8E8E8 solid;
 }
 
-.footer-icons>ul>li {
+.footer-icons>ul>li, .menu-nav-container>ul>li {
     display: inline;
 }
 
