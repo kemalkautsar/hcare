@@ -7,17 +7,24 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="container menu mw-100 full-width sticky-top">
+    <div class="container menu mw-100 full-width sticky-top d-none d-lg-block d-xl-block">
         <div class="row main-menu d-flex align-items-center">
             <div class="col-2 menu-logo-container">
                 <img class="menu-logo" src="images/logo_hic.png">
             </div>
             <div class="col-8 menu-nav-container d-flex align-items-center">
                 <ul>
-                    <li class="menu-item"><img src="images/icon-search.png"></li>
+                    <li class="menu-item">
+                        <form id="search"><input type="search" placeholder="Search"></form>
+                    </li>
                     <li class="menu-item">Compare Policies</li>
                     <li class="menu-item">Health Funds</li>
                     <li class="menu-item">Guides</li>
@@ -31,6 +38,17 @@
             </div>
         </div>
     </div>
+    <div class="mobile-fullwidth container mobile-menu mw-100 full-width sticky-top d-lg-none d-xl-none">
+        <div class="mobile-menu-logo">
+            <img src="images/logo_hic.png">
+        </div>
+        <div class="mobile-menu-phone">
+            <img src="images/image-phone-cta.png">
+        </div>
+        <div class="mobile-menu-toggle d-flex justify-content-end align-items-center">
+            <img src="images/icon-menu.png">
+        </div>
+    </div>
     <div class="container faux-banner mw-100 full-width"></div>
     <div class="float-share position-sticky">
         <ul class="no-dots float-share-group">
@@ -41,7 +59,7 @@
             <li class="float-share-email"><img src="images/icon-email-white.png"></li>
         </ul>
     </div>
-    <div class="container body">
+    <div class="mobile-fullwidth container body">
         <div class="row main-content">
             <div class="col-xl-4 d-none d-xl-block d-lg-block sidebar">
                 <div class="card-low page-contents">
@@ -136,16 +154,16 @@
                                 643
                                 355 for some free, no obligation advice.</p>
                         </div>
-                        <div class="bg-blue" style="padding:32px;">
+                        <div class="bg-blue" style="padding:28px;">
                             <h5 style="text-align: center; color:#fff; padding: 0 0 23px;;"><img src="images/icon-plus.png" />
                                 Compare Health Insurance Policies Now</h5>
                             <div>
                                 <form>
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col" style="padding:8px;">
                                             <input type="text" class="form-control" placeholder="Enter Suburb or Postcode">
                                         </div>
-                                        <div class="col">
+                                        <div class="col" style="padding:8px;">
                                             <select class="form-control">
                                                 <option value="Infant">Infant</option>
                                                 <option value="adolescent">Adolescent</option>
@@ -154,9 +172,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col" style="padding:8px;">
-                                            <a class="button-green btn-block" style="width:100%;">Submit</a>
-                                        </div>
+                                        <a class="button-green btn-block" style="margin:8px;width:100%;">Submit</a>
                                     </div>
                                 </form>
                             </div>
@@ -312,13 +328,13 @@
                             <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        Collapsible Group Item #1
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                        + What types of health insurance are available in Australia?
                                     </button>
                                 </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                 <div class="card-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
@@ -336,7 +352,7 @@
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo">
-                                        Collapsible Group Item #2
+                                        + Who should buy health insurance?
                                     </button>
                                 </h5>
                             </div>
@@ -358,11 +374,33 @@
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree">
-                                        Collapsible Group Item #3
+                                        + How much will it cost?
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                    of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        + Health insurance glossary
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                 <div class="card-body">
                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                     richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
@@ -385,8 +423,8 @@
                             </div>
                             <div class="col-11">
                                 <h5>Still Have Questions? Let's Talk!</h5>
-                                <p>Confused? Not sure if this applies to your situation? Phone us on <span class="phone-cta">1300
-                                        643 355</span> for some free, no obligation advice.</p>
+                                <p>Confused? Not sure if this applies to your situation? Phone us on <a class="phone-cta">1300
+                                        643 355</a> for some free, no obligation advice.</p>
                             </div>
                         </div>
                         <div class="row">
