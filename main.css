@@ -12,9 +12,15 @@ ul.no-dots {
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width:1199px){
     body>.mobile-fullwidth {
         max-width: 960px!important;
+    }
+}
+
+@media (min-width: 1200px ){
+    .container {
+        max-width: 1140px!important;
     }
 }
 
@@ -135,6 +141,7 @@ input::-webkit-input-placeholder {
 
 .mobile-menu-toggle {
     height: fit-content;
+    padding:10px;
 }
 
 .container-plain, .container-plain div {
