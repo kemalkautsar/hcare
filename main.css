@@ -454,9 +454,9 @@ ul.timeline:before {
     background: #d4d9df;
     display: inline-block;
     position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
+    left: 30px;
+    width: 1px;
+    height: 85%;
     z-index: 400;
     top :8px;
 }
