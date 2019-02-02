@@ -401,6 +401,9 @@ div.suggestion-nav {
 .page-contents-entries, .page-categories-entries {
     padding: 25px 19px 35px 19px;
 }
+.page-contents-entries>ul>li>a {
+    color: #000;
+}
 
 .page-guides-entries {
     padding: 19px 16px;
@@ -440,4 +443,56 @@ div.suggestion-nav {
 
 #accordion>.card:last-child {
     border-radius: 0 0 2px 2px!important;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+    top :8px;
+}
+ul.timeline > li {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li.active > a {
+    color: #22c0e8;
+}
+ul.timeline > li.active:before {
+    content: ' ';
+    background: #22c0e8;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #22c0e8;
+    left: 26px;
+    width: 9px;
+    height: 9px;
+    z-index: 400;
+    margin-top: 8px;
+
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #000;
+    left: 26px;
+    width: 9px;
+    height: 9px;
+    z-index: 400;
+    margin-top: 8px;
+
 }
