@@ -401,6 +401,11 @@ div.suggestion-nav {
 .page-contents-entries, .page-categories-entries {
     padding: 25px 19px 35px 19px;
 }
+
+.page-categories-entries>ul>li.active {
+    color: #22c0e8;
+}
+
 .page-contents-entries>ul>li>a {
     color: #000;
 }
@@ -521,7 +526,7 @@ ul.timeline-cover > li.active > a {
 }
 
 ul.timeline-cover > li:before {
-    content: '✔';
+    content: '\ufe0f';
     background: #79CA1B;
     display: inline-block;
     position: absolute;
