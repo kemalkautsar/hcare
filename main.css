@@ -317,6 +317,10 @@ p:last-child {
     margin: 0 auto;
 }
 
+.main-quote>div {
+    padding: 35px;
+}
+
 .end-quote {
     padding: 40px;
     color: #fff;
