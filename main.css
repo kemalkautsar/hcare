@@ -5,7 +5,7 @@ body {
 ul.no-dots {
     list-style-type: none;
 }
-
+/*
 @media (min-width: 768px){
     body>.mobile-fullwidth {
         max-width: none;
@@ -22,7 +22,7 @@ ul.no-dots {
     .container {
         max-width: 1140px!important;
     }
-}
+}*/
 
 .menu {
     height: 65px;
