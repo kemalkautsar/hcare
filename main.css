@@ -384,9 +384,39 @@ p:last-child {
     padding: 0 8px!important;
 }
 
+@media (max-width: 475px) {
+    .end-quote {
+        padding: 38px 12px;
+    }
+
+    .end-quote>.container {
+        padding: 0;
+    }
+
+    .end-quote>.container>.row {
+        text-align: center;
+    }
+
+    .end-quote-form {
+        padding: 0!important;
+    }
+}
+
 .comment-section {
     background: #f8f8f8;
     padding: 45px 39px;
+}
+
+@media (max-width: 475px) {
+    .comment-section {
+        padding: 29px 12px;
+    }
+    .comment-head {
+        text-align: center;
+    }
+    .comment-button>a {
+        width:100%;
+    }
 }
 
 .suggestion-head {
