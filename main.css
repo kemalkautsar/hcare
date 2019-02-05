@@ -333,6 +333,12 @@ p:last-child {
     padding: 26px 0;
 }
 
+@media(max-width: 475px) {
+    .go-compare {
+        border: 0;
+    }
+}
+
 .go-compare>a {
     width: fit-content;
     float: none; 
@@ -500,6 +506,10 @@ div.suggestion-nav {
 
 #accordion>.card:last-child {
     border-radius: 0 0 2px 2px!important;
+}
+
+#accordion button {
+    white-space: normal;
 }
 
 ul.timeline {
