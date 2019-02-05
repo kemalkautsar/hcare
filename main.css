@@ -208,14 +208,16 @@ a.nav-link {
     width: fit-content;
     position: absolute;
     top: 345px;
+    z-index: 1;
 }
+
 
 .float-share-group {
     padding: 0;
     width: fit-content;
 }
 
-.float-share-group>li>img {
+.float-share-group>div>img {
     padding: 16px 10px!important;
 }
 
@@ -239,6 +241,19 @@ a.nav-link {
     background: #3C3C3C;
 }
 
+@media(max-width:425px) {
+    .float-share {
+        top: 100vh;
+    }
+
+    .float-share, .float-share div {
+        width: 100%;
+    }
+    .float-share-group>div>img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .row {
     margin-right: 0!important;
     margin-left: 0!important;
@@ -263,7 +278,7 @@ a.nav-link {
 
 @media(max-width:768px){
     .container.body{
-        margin-top: -471px!important;
+        margin-top: -252px!important;
         margin-bottom: 0px!important;
     }
 }
@@ -346,6 +361,8 @@ p:last-child {
 .article-image>img {
     float: none; 
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 .main-quote>div {
