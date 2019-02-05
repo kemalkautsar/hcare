@@ -375,6 +375,12 @@ p:last-child {
     padding: 35px;
 }
 
+@media (max-width: 475px) {
+    .main-quote>.bg-blue {
+        padding: 18px 14px 26px;
+    }
+}
+
 .end-quote {
     padding: 40px;
     color: #fff;
