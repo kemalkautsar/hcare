@@ -474,6 +474,10 @@ div.suggestion-nav {
     background-repeat: repeat;
 }
 
+.footer-quote a {
+    white-space: nowrap;
+}
+
 @media (max-width: 475px) {
     .container.footer-quote {
         padding: 26px 25px 37px;
