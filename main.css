@@ -367,8 +367,13 @@ p:last-child {
 .article-image>img {
     float: none; 
     margin: 0 auto;
-    width: 100%;
-    height: 100%;
+}
+
+@media (max-width: 475px) {
+    .article-image>img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .main-quote>div {
