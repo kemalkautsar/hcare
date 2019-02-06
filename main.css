@@ -474,6 +474,12 @@ div.suggestion-nav {
     background-repeat: repeat;
 }
 
+@media (max-width: 475px) {
+    .container.footer-quote {
+        padding: 26px 25px 37px;
+    }
+}
+
 .footer-menu {
     padding: 54px 0 66px;
     border-bottom: 1px #E8E8E8 solid;
@@ -629,7 +635,9 @@ ul.timeline-cover > li.active > a {
 }
 
 ul.timeline-cover > li:before {
-    content: '\ufe0f';
+    content: '✓';
+    color: #fff;    
+    text-align: center;
     background: #79CA1B;
     display: inline-block;
     position: absolute;
