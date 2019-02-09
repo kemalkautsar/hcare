@@ -512,9 +512,7 @@ div.suggestion-nav {
 
     .footer-mid {
         padding-top: 27px;
-        padding-bottom: 45px;
         border-top: 1px solid #E8E8E8;
-        border-bottom: 1px solid #E8E8E8;
     }
 }
 
@@ -525,6 +523,12 @@ div.suggestion-nav {
 .footer-copyright {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+@media(max-width: 768px) {
+    .footer-copyright>div>div {
+        text-align: center;
+    }
 }
 
 .sidebar>div {
