@@ -475,6 +475,14 @@ div.suggestion-nav {
     width: 25%!important;
 }
 
+.suggestion-content .card-high {
+    height: 340px!important;
+}
+
+.owl-item {
+    height: 352px;
+}
+
 .container.footer-quote {
     padding: 40px 0;
     background-image: url("images/bg-playstation.png");
@@ -494,6 +502,14 @@ div.suggestion-nav {
 .footer-menu {
     padding: 54px 0 66px;
     border-bottom: 1px #E8E8E8 solid;
+}
+
+@media (max-width: 768px) {
+    .footer-column {
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
 
 .footer-icons>ul>li, .menu-nav-container>ul>li {
