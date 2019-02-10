@@ -220,7 +220,7 @@ a.nav-link {
     width: fit-content;
     position: absolute;
     top: 345px;
-    z-index: 5;
+    z-index: 500;
 }
 
 
