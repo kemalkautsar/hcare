@@ -243,7 +243,7 @@ a.nav-link {
 
 @media(max-width:425px) {
     .float-share {
-        top: 100vh;
+        top: 93vh;
     }
 
     .float-share, .float-share div {
