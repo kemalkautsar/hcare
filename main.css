@@ -309,6 +309,10 @@ a.nav-link {
     margin-bottom: 32px;
 }
 
+.content-accordion a {
+    color: #000;
+}
+
 p:last-child {
     margin: 0;
 }
