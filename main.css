@@ -281,6 +281,13 @@ a.nav-link {
     box-shadow: 0px 8px 18px rgba(0, 0, 0, .2);
 }
 
+@media(max-width:425px) {
+    .mobile-fullwidth {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+}
+
 @media(min-width:768px){
     .container.body {
         margin-bottom: 76px;
