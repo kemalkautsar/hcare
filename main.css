@@ -539,7 +539,9 @@ div.suggestion-nav {
     }
     .footer-menu-content {
         padding: 0;
-        width: fit-content;
+    }
+    .footer-menu-container {
+        width: 50%;
     }
 }
 
