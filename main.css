@@ -559,6 +559,19 @@ div.suggestion-nav {
     .footer-copyright>div>div {
         text-align: center;
     }
+
+    .footer-copyright>.row {
+        flex-direction: column-reverse;
+    }
+
+    .footer-icons, .footer-icons>.no-dots {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-copyright {
+        padding-bottom: 70px;
+    }
 }
 
 .sidebar>div {
